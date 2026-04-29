@@ -1,0 +1,5 @@
+@use "@strategies/tokens/color";
+
+.counter{
+  background-color: color.$background-discovery;
+}

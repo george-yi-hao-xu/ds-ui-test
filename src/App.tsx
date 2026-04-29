@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { token } from '@strategies/tokens'
 import { Button } from '@strategies/ui'
-import './App.css'
+import './App.scss'
 
 function App() {
   const [count, setCount] = useState(0)
