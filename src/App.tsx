@@ -29,6 +29,8 @@ function App() {
           </p>
         </div>
 
+        <p className='dep1'>test deprecated tokens</p>
+        <p className='dep2'>test deprecated tokens</p>
       </section>
     </>
   )

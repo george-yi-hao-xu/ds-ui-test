@@ -1,5 +1,29 @@
 @use "@strategies/tokens/color";
+@use "@strategies/tokens/mixins";
 
-.counter{
-  background-color: color.$background-discovery;
+#center {
+  @include mixins.scrollbar;
+
+  max-height: 200px;
+  overflow: auto;
+
+  .hero {
+    @include mixins.elevation-border-active;
+  }
+
+  .counter {
+    background-color: color.$background-discovery;
+
+    @include mixins.font-title-xxlarge;
+  }
+
+  .dep1 {
+    color: color.$red__alt; // deprecated token
+    background-color: color.$white; // deprecated token
+  }
+
+  .dep2 {
+    color: color.$red; // deprecated token
+    background-color: color.$shadow; // deprecated token
+  }
 }
